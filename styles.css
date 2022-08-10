@@ -1,0 +1,104 @@
+/* Global ===================== */
+:root {
+  --background: #FFEDD5;
+  --section: #FED7AA;
+  --primary: #2D2C2A;
+  --secondary: #995000;
+  --text: #00000099;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, .price {
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+p {
+  
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text);
+}
+
+/* Header ===================== */
+
+header {
+  padding: 32px 0;
+  text-align: center;
+}
+
+header,
+section {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+header h1 span {
+  color: var(--secondary);
+}
+
+header p {
+  font-size: 14px;
+  line-height: 16px;
+
+  color: var(--text);
+}
+
+/* Section ===================== */
+
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  background-color: var(--section);
+  padding: 8px 16px;
+  text-align: center;
+
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+/* Lista ===================== */
+
+ul li {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+li .details {
+  max-width: 240px;
+}
+
+.details h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.details p {
+  color: var(--text);
+  font-size: 14px;
+  line-height: 21px;
+}
